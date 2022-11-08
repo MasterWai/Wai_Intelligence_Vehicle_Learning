@@ -51,3 +51,9 @@
 5. 安装ros：sudo apt install ros-noetic-desktop-full
 6. 添加ros的环境变量到系统的bash中：echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 7. 刷新环境变量：source ~/.bashrc
+
+# 小海龟测试
+0. 开3个终端
+1. roscore
+2. rosrun turtlesim turtlesim_node
+3. rosrun turtlesim turtle_teleop_key
