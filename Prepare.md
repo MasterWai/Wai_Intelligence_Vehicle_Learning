@@ -56,4 +56,6 @@
 0. 开3个终端
 1. roscore
 2. rosrun turtlesim turtlesim_node
+2.1 没有该包->sudo apt-get install ros-$(rosversion -d)-turtlesim 
+    #$(rosversion -d)可直接替换为你安装的ros版本代号，如noetic...<p>
 3. rosrun turtlesim turtle_teleop_key
