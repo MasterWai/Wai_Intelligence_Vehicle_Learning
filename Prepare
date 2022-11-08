@@ -1,6 +1,6 @@
-ROS（ROS1）需求环境：Ubuntu 18.04 / 20.04（30系显卡）
+# ROS（ROS1）需求环境：Ubuntu 18.04 / 20.04（30系显卡）
 
-安装Ubuntu的准备：
+# 安装Ubuntu的准备：
 1. 打开磁盘管理，选剩余空间大的硬盘，右键压缩卷，大小至少25G（单位是M，G*1024=M）以上，之后会有未分配的空间，进入下一步。没有25G的话，你好，已经结束了。
 2. 准备U盘（16G或以上）
 3. 下载rufus（http://rufus.ie/downloads/），建议portable
@@ -11,7 +11,7 @@ ROS（ROS1）需求环境：Ubuntu 18.04 / 20.04（30系显卡）
 7. 关闭安全启动。
 8. 调整Boot顺序，U盘放第一，或者直接引导进U盘。
 
-安装Ubuntu的过程：
+# 安装Ubuntu的过程：
 1. 引导进U盘后，选择Ubuntu install（18.04）或者Ubuntu（20.04）。
 2. 进入Ubuntu后，按提示进行安装。
 3. 硬盘位置多选正常安装，少则最小安装（最好不要，因为会缺少扫雷和纸牌接龙，下载安装ROS的时候很无聊）。
@@ -23,4 +23,11 @@ ROS（ROS1）需求环境：Ubuntu 18.04 / 20.04（30系显卡）
 9. 等待安装，完毕后，重启，拔u盘。
 10.重启后，界面（紫色背景，名叫GRUB）应该有Ubuntu和Windows boot manager，选Ubuntu
 
-进入Ubuntu后的安装软件及配置：
+# 进入Ubuntu后的安装软件及配置：
+1. 更换清华源
+2. sudo passwd
+3. sudo apt update
+4. sudo apt upgrade
+
+# 安装ROS（18.04，melodic）
+1. 
