@@ -1,4 +1,4 @@
-# ROS（ROS1）需求环境：Ubuntu 18.04 / 20.04（30系显卡）
+# ROS（ROS1）需求环境：Ubuntu 18.04 / 20.04
 
 # 安装Ubuntu的准备：
 1. 打开磁盘管理，选剩余空间大的硬盘，右键压缩卷，大小至少25G（单位是M，G*1024=M）以上，之后会有未分配的空间，进入下一步。没有25G的话，你好，已经结束了。
@@ -56,5 +56,5 @@
 1. roscore
 2. rosrun turtlesim turtlesim_node
 2.1 没有该包->sudo apt-get install ros-$(rosversion -d)-turtlesim 
-    #$(rosversion -d)可直接替换为你安装的ros版本代号，如noetic...<p>
+    <p>$(rosversion -d)可直接替换为你安装的ros版本代号，如noetic...<p>
 3. rosrun turtlesim turtle_teleop_key
