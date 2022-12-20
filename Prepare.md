@@ -18,7 +18,7 @@
 4. 选择其他选项
 5. 分区环节，因为刚刚windows分了空间出来，选择未分配的空间，点击+，逻辑分区，开始位置，efi，1024M。
 6. 选择剩余的未分配空间，点击+，主分区，开始位置，EXT4，挂载点\，大小拉满。
-7. 安装启动引导器的设备选择刚刚新建的efi分区的编号（不要选错windows的windows boot manager，但选了可以找Wai哦）。
+7. 安装启动引导器的设备选择刚刚新建的efi分区的编号（不要选错windows的windows boot manager）。
 8. 剩余自己喜欢怎么选就怎么选。
 9. 等待安装，完毕后，重启，拔u盘。
 10.重启后，界面（紫色背景，名叫GRUB）应该有Ubuntu和Windows boot manager，选Ubuntu
